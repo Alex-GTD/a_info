@@ -1,0 +1,109 @@
+/* Стили для кнопок социальных сетей */
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Диаметр кнопки */
+  height: 60px;
+  border: 2px solid black; /* Черная обводка */
+  border-radius: 50%; /* Круглая форма */
+  text-align: center;
+  text-decoration: none;
+  color: black; /* Цвет иконки */
+  font-size: 30px; /* Размер иконки */
+  transition: all 0.3s ease; /* Плавная анимация */
+}
+
+/* Увеличение кнопки при наведении */
+.social-link:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Легкий фон */
+  transform: scale(1.1); /* Увеличение */
+}
+
+/* Стили для каждой конкретной иконки */
+.icon {
+  font-size: 30px; /* Размер иконки */
+}
+
+/* Стили для Twitter */
+.icon.fa-twitter {
+  color: #1DA1F2; /* Цвет для Twitter */
+}
+
+/* Стили для Facebook */
+.icon.fa-facebook-f {
+  color: #3b5998; /* Цвет для Facebook */
+}
+
+/* Стили для Instagram */
+.icon.fa-instagram {
+  color: #e4405f; /* Цвет для Instagram */
+}
+
+/* Стили для GitHub */
+.icon.fa-github {
+  color: #333; /* Цвет для GitHub */
+}
+
+/* Стили для Email */
+.icon.fa-envelope {
+  color: #ff0000; /* Цвет для Email */
+}
+
+/* Скрытие текста в кнопках */
+.social-link .label {
+  display: none;
+}
+
+/* Стили для футера */
+#footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+/* Общие стили для социальных кнопок */
+.social-link {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border: 2px solid black; /* Черная обводка */
+  border-radius: 50%; /* Круглая форма */
+  text-align: center;
+  line-height: 60px; /* Центрирование иконки */
+  font-size: 30px; /* Размер иконки */
+  color: black; /* Черный цвет иконок */
+  transition: all 0.3s ease; /* Плавные переходы */
+  margin: 10px; /* Отступы между кнопками */
+}
+
+/* Цвета для каждой иконки */
+.social-link.twitter {
+  background-color: #1DA1F2; /* Синий для Twitter */
+}
+
+.social-link.facebook {
+  background-color: #3b5998; /* Синий для Facebook */
+}
+
+.social-link.instagram {
+  background-color: #e4405f; /* Розовый для Instagram */
+}
+
+.social-link.github {
+  background-color: #333; /* Черный для GitHub */
+}
+
+.social-link.email {
+  background-color: #ff0000; /* Красный для Email */
+}
+
+/* Эффект при наведении */
+.social-link:hover {
+  transform: scale(1.1); /* Увеличение при наведении */
+  opacity: 0.8; /* Легкая прозрачность */
+}
+
+/* Скрытие текста внутри кнопки (если он есть) */
+.social-link i {
+  color: white; /* Белые иконки */
+}
